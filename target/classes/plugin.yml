@@ -1,0 +1,16 @@
+name: PlayerListPlugin
+version: 1.0
+main: com.applepeo.playerlistplugin.PlayerListPlugin
+api-version: '1.20'
+commands:
+  online:
+    description: 列出在线玩家
+    usage: /online
+  plp:
+    description: PlayerListPlugin 管理命令
+    usage: /plp api port <端口号>
+    permission: plp.admin
+permissions:
+  plp.admin:
+    description: 允许修改插件配置
+    default: op
