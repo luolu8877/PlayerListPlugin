@@ -109,7 +109,7 @@ public final class PlayerListPlugin extends JavaPlugin {
         /* 1. CPU：手动采集两次 ticks */
         long[] prevTicks = cpu.getSystemCpuLoadTicks();   // 第一次
         try { Thread.sleep(1000); } catch (InterruptedException ignore) {}
-        double cpuLoad = cpu.getSystemCpuLoadBetweenTicks(prevTicks) * 100; // ✅ 传参版本
+        double cpuLoad = cpu.getSystemCpuLoadBetweenTicks(prevTicks) * 100; // 传参版本
 
         /* 2. 内存 */
         GlobalMemory mem = si.getHardware().getMemory();
