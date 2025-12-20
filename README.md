@@ -79,7 +79,7 @@ api-port: 9960
 ## 🔨 自行编译
 
 ```bash
-git clone https://github.com/yourname/PlayerListPlugin.git
+git clone https://github.com/luolu8877/PlayerListPlugin.git
 cd PlayerListPlugin
 mvn clean package
 # 输出：target/PlayerListPlugin-1.0.0.jar
